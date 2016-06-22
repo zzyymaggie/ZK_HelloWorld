@@ -3,8 +3,11 @@
  */
 package org.sophia.helloworld;
 
+import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.event.Event;
-import org.zkoss.zk.ui.util.GenericForwardComposer;
+import org.zkoss.zk.ui.select.SelectorComposer;
+import org.zkoss.zk.ui.select.annotation.Listen;
+import org.zkoss.zk.ui.select.annotation.Wire;
 import org.zkoss.zul.Label;
 
 
@@ -12,11 +15,12 @@ import org.zkoss.zul.Label;
  * @author Sophia
  *
  */
-public class HelloWorldComposer extends GenericForwardComposer{
-    
+public class HelloWorldComposer extends SelectorComposer<Component>{
+    @Wire
     private Label lbl;
     
-    public void onClick$btn(Event event){
+    @Listen("onClick=#btn")
+    public void onShowContent(Event event){
         lbl.setValue("Hello World !!!!!!!!!!!!");
     }
 
