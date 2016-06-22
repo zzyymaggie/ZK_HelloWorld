@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.zkoss</groupId>
-	<artifactId>essentials</artifactId>
+	<groupId>org.sophia</groupId>
+	<artifactId>ZK_HelloWorld</artifactId>
 	<version>1.0.0</version>
 	<properties>
 		<zk.version>7.0.0</zk.version>
@@ -10,8 +10,8 @@
 		<packname>-${project.version}-FL-${maven.build.timestamp}</packname>
 	</properties>
 	<packaging>war</packaging>
-	<name>The ZK Essentials Example Project</name>
-	<description>The ZK Essentials Example Application</description>
+	<name>ZK_HelloWorld Project</name>
+	<description>The ZK Example Application</description>
 	<licenses>
 		<license>
 			<name>GNU LESSER GENERAL PUBLIC LICENSE, Version 3</name>

@@ -1,4 +1,4 @@
-<window apply="org.louis.helloworld.HelloWorldComposer">
+<window apply="org.sophia.helloworld.HelloWorldComposer">
 	<label id="lbl"></label>
 	<button label="show" id="btn"/>
 </window>
