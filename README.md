@@ -1,7 +1,14 @@
-# This is the zk demo project.
+# Introduction
+> This is the zk and zss demo project.
 
-# how to run
-mvn jetty:run
+# Run
+`mvn jetty:run`
+or
+`mvn jetty:run -Djetty.port=8080`
 
-#access
+# Visit
+* zk demo url:
 http://localhost:8080/ZK_HelloWorld/
+
+* zss demo url:
+http://localhost:8080/ZK_HelloWorld/startzss.zul
