@@ -1,0 +1,6 @@
+<?taglib uri="http://www.zkoss.org/dsp/web/core" prefix="c" ?>
+<tree model="${c:new('org.sophia.model.FooModel')}">
+    <treecols>
+        <treecol label="Names"/>
+    </treecols>
+</tree>
