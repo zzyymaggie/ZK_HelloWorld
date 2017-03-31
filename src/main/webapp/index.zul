@@ -1,4 +1,13 @@
-<window apply="org.sophia.helloworld.HelloWorldComposer">
-	<label id="lbl"></label>
-	<button label="show" id="btn"/>
-</window>
+<?page title="ZK and ZSS issue demo" contentType="text/html;charset=UTF-8"?>
+<zk>
+<style>
+.title{
+	font-size: 18px;
+	font-weight: bold;
+}
+</style>
+	<window border="normal" title="Example for ZK and ZK Spreadsheet issues " apply="org.sophia.composer.IndexComposer">
+	<vlayout id="linkArea" style="padding:10px">
+	</vlayout>
+	</window>
+</zk>

@@ -1,0 +1,20 @@
+<zk  xmlns:n="native" xmlns:w="client" xmlns:h="xhtml" xmlns:zk="zk">
+    <div width="700px">
+     <label width="700px" id="metaLabel" style="color:blue;" value="cell's format cannot work when change the cell value by code demo" />
+    </div>
+     <div width="700px">
+     <label width="700px" id="metaLabel2" style="font-weight:bold;color:red;" value="Issue Description: The Number and Dollar columns are editable, we could edit it, only the editing cell format is ok after editing it, but the other cell format can't work after value change(edit one cell, change the next row cell value) (see: /WEB-INF/books/zk-AP.xlsx)" />    
+    </div>
+<hlayout vflex="1" width="1000px" >
+   <vlayout vflex="1"  width="1000px">
+	<window  vflex="1" apply="org.sophia.composer.DeleteKeyComposer" width="1000px">
+		 <hlayout  vflex="1" width="1000px">		     
+			<spreadsheet id="ss" hflex="1" vflex="1"
+				showFormulabar="false" showContextMenu="true" showToolbar="false"
+				showSheetbar="false" maxVisibleRows="1000" maxVisibleColumns="512"
+				src="/WEB-INF/books/book1.xlsx" />
+	     </hlayout>
+	</window>
+	 </vlayout>
+	 </hlayout>
+</zk>
