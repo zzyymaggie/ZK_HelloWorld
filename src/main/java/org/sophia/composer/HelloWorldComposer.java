@@ -1,7 +1,7 @@
 /**
  * Copyright © sophia. All Rights Reserved.
  */
-package org.sophia.helloworld;
+package org.sophia.composer;
 
 import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.event.Event;
